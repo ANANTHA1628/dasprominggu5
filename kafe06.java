@@ -40,6 +40,8 @@ public class kafe06{
             case 'L':
                 totalharga += 0.4 *totalharga;    
                 break;
+            default:
+            System.out.println("ukuran tidak tersedia");
         }
 
         double diskon = keanggotaan ? 0 : 0.1;
